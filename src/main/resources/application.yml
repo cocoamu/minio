@@ -1,0 +1,12 @@
+minio:
+  url: http://47.104.137.148:9000 # 服务器地址
+  access: root # 账号
+  secret: qwer1234 # 密码
+  bucket: file # Bucket
+
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 1000MB
